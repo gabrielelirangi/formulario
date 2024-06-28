@@ -1,0 +1,21 @@
+.testoNav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 1.5rem;
+}
+
+.titoloNav{
+    font-size: 5rem;
+    color: #000080;
+    font-family: cursive;
+}
+
+.descrizioneNav{
+    font-size: 1.6rem;
+    text-align: center;
+    color: #000080;
+    font-weight: 600;
+    
+}

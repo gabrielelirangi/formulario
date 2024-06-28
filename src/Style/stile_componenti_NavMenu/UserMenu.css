@@ -1,0 +1,27 @@
+.box-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: 	#F5FFFA;
+    width: 13rem;
+    height: 12rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    position: absolute;
+    right: 3rem;
+    top: 8rem;
+    z-index: 200; /* Assicura che UserMenu sia sopra NavLuna */
+}
+
+.bottoneUser {
+    text-decoration: none;
+    color: #00bfff;
+    font-weight: bold;
+}
+
+.registrati {
+    color: black;
+    font-size: 1.6rem;
+}

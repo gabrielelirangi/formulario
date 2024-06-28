@@ -1,0 +1,49 @@
+
+
+.boxSemiLuna {
+    position: relative;
+    height: 35rem;
+    border-radius: 0% 0% 70% 100%;
+    overflow: hidden; 
+}
+
+.boxSemiLuna::before {
+    content: ""; /* regola obbligatoria dato che uso before */
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #6495ed;
+    opacity: 0.5;
+    z-index: -1; /* lo inserisco per non far coprire il contenuto dell'elemento precedente */
+}
+
+
+
+.boxImmagine {
+    position: relative;
+    height: 32rem;
+    border-radius: 0% 0% 50% 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: right;
+}
+
+.boxImmagine::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/immagini_Navbar/sfondo.jpg);
+    background-size: cover;  
+    background-position: right;  
+    filter: blur(0.8rem);
+    z-index: -1;
+}

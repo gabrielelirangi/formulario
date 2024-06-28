@@ -1,0 +1,66 @@
+.NavMenu {
+    background-color: #1e4356cc;
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 10rem;
+    color: white;
+    position: fixed;
+    z-index: 100; /* Assicura che NavMenu sia sopra tutti gli altri contenuti */
+}
+
+.logo {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.logo2 {
+    margin-left: 6rem;
+}
+
+.collegamenti {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.NavMenu-bottone {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.NavMenu-bottone:hover {
+    color: #00bfff;
+}
+
+.burgherMenu {
+    display: none;
+}
+
+/* Tablet */
+@media screen and (max-width: 48rem) {
+    .NavMenu {
+        padding: 0 6rem;
+    }
+
+    .logo {
+        font-size: 1.1rem;
+    }
+
+    .logo2 {
+        margin-left: 5rem;
+    }
+
+    .collegamenti {
+        display: none;
+    }
+
+    .burgherMenu {
+        display: block;
+    }
+}
