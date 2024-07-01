@@ -19,3 +19,37 @@
     font-weight: 600;
     
 }
+
+
+/*tablet*/
+@media screen and (max-width: 48rem) {
+
+
+    .titoloNav{
+        font-size: 3.5rem;
+
+    }
+
+    .descrizioneNav{
+        font-size: 1.5rem;
+        width: 33rem;
+        
+        
+    }
+    
+}
+
+/*mobile*/
+@media screen and (max-width: 24rem) {
+    .titoloNav{
+        font-size: 2rem;
+    }
+
+    .descrizioneNav{
+        font-size: 1rem;
+        width: 15rem;
+        
+        
+        
+    }
+}

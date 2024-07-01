@@ -14,6 +14,9 @@ function NavMenu() {
   const [menuUser, setMenuUser] = useState(false);
 
 
+  
+
+
   // funzioni per il cambio di colore dell'icona User
   const cambiaColoreUser = () => { //colore modificato
     setBottoneUser("#00bfff");
@@ -29,6 +32,7 @@ function NavMenu() {
     setMenuUser(!menuUser);
   }
 
+ 
 
   return (
     <>

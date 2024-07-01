@@ -1,17 +1,23 @@
 .box-user {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    gap: 0.5rem;
+    align-items: center;
+    gap: 0.7rem;
+
     background-color: 	#F5FFFA;
     width: 13rem;
     height: 12rem;
+    
     font-size: 1.4rem;
+    
     border-radius: 1rem;
+
+    text-align: center;
+    
     position: absolute;
     right: 3rem;
-    top: 8rem;
+    top: 6.5rem;
     z-index: 200; /* Assicura che UserMenu sia sopra NavLuna */
 }
 
@@ -19,9 +25,30 @@
     text-decoration: none;
     color: #00bfff;
     font-weight: bold;
+    width: 9rem;
+    padding: 0.3rem;
+    border-radius: 1rem;
+}
+
+.bottoneUser:hover{
+    background-color: #dcdcdc;
 }
 
 .registrati {
     color: black;
     font-size: 1.6rem;
 }
+
+.assistenza{
+    font-size: 1rem;
+}
+
+.linea{
+    border-bottom: 0.1rem solid #dcdcdc;
+    width: 10rem;
+}
+
+
+
+
+

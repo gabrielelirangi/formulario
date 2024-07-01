@@ -1,0 +1,79 @@
+
+
+
+.menuBurgher{
+    background-color: aliceblue;
+    height: max-content;
+    width: 30rem;
+    border-radius: 1rem;
+    padding: 1rem;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    position: absolute;
+    top: 9rem;
+    right: 9rem;
+
+
+
+
+    
+    
+}
+
+.chiudiBurgherMenu{
+    display: flex;
+    justify-content: end;
+
+}
+
+
+
+.x{
+    box-shadow: 0 0.25rem 0.50rem rgba(0, 0, 0, 0.5);
+    
+}
+
+
+.menuBurgherlink{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.bottoniBurgher{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #000080;
+    text-shadow: 0.25rem 0.25rem 0.50rem #ffffe0;
+   
+
+    
+}
+
+.bottoniBurgher:hover{
+    color: #87CEEB;
+}
+
+
+.linea2{
+    border-bottom: 0.1rem solid #dcdcdc;
+    width: 28rem;
+}
+
+
+/*mobile*/
+@media screen and (max-width:24rem){
+
+    .menuBurgher{
+        width: 15rem;
+
+        right: 4rem;
+        top: 8rem;
+    }
+    
+}

@@ -64,3 +64,21 @@
         display: block;
     }
 }
+
+
+/*mobile*/
+@media screen and (max-width: 24rem) {
+    .NavMenu{
+        height: 4rem;
+        padding: 0 1rem;
+
+    }
+
+    .logo{
+        font-size: 1rem;
+    }
+    .logo2{
+        margin-left: 3rem;
+    }
+    
+}
