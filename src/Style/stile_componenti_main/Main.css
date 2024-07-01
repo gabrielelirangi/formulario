@@ -1,0 +1,33 @@
+
+
+.divCard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    
+}
+
+
+/*tablet*/
+
+@media  screen and (max-width:48rem) {
+
+    .divCard{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        
+    }
+    
+}
+
+
+/* mobile*/
+@media screen and (max-width: 24rem) {
+    
+    .divCard{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}

@@ -16,7 +16,7 @@
     height: 100%;
     background-color: #6495ed;
     opacity: 0.5;
-    z-index: -1; /* lo inserisco per non far coprire il contenuto dell'elemento precedente */
+    z-index: 0; /* lo inserisco per non far coprire il contenuto dell'elemento precedente */
 }
 
 
@@ -38,8 +38,6 @@
 .boxImmagine::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background-image: url(../../assets/immagini_Navbar/sfondo.jpg);

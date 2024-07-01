@@ -12,6 +12,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home';
 import Servizi from './pages/Servizi';
+import ScuolaElementare from './pages/ScuolaElementare';
 
 function App() {
   
@@ -19,6 +20,8 @@ function App() {
     { path: "/", element: <Home/>},
     { path: "/home", element: <Home/>},
     { path: "/servizi", element: <Servizi/>},
+    { path: "/scuolaelementare", element: <ScuolaElementare/>},
+
 
 
   ])

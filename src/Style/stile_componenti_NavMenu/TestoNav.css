@@ -1,55 +1,54 @@
-.testoNav{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    gap: 1.5rem;
+.testoNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1.5rem;
 }
 
-.titoloNav{
+.titoloNav {
+  font-size: 5rem;
+  color: #000080;
+  font-family: cursive;
+}
+
+.descrizioneNav {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #000080;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 48.01rem) and (max-width: 78.75rem) {
+  .titoloNav {
     font-size: 5rem;
-    color: #000080;
-    font-family: cursive;
-}
+  }
 
-.descrizioneNav{
-    font-size: 1.6rem;
-    text-align: center;
-    color: #000080;
-    font-weight: 600;
-    
+  .descrizioneNav{
+   width: 48rem;
+  }
 }
-
 
 /*tablet*/
 @media screen and (max-width: 48rem) {
+  .titoloNav {
+    font-size: 3.5rem;
+  }
 
-
-    .titoloNav{
-        font-size: 3.5rem;
-
-    }
-
-    .descrizioneNav{
-        font-size: 1.5rem;
-        width: 33rem;
-        
-        
-    }
-    
+  .descrizioneNav {
+    font-size: 1.5rem;
+    width: 33rem;
+  }
 }
 
 /*mobile*/
 @media screen and (max-width: 24rem) {
-    .titoloNav{
-        font-size: 2rem;
-    }
+  .titoloNav {
+    font-size: 2rem;
+  }
 
-    .descrizioneNav{
-        font-size: 1rem;
-        width: 15rem;
-        
-        
-        
-    }
+  .descrizioneNav {
+    font-size: 1rem;
+    width: 15rem;
+  }
 }
