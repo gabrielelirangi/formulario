@@ -124,7 +124,7 @@
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 1024px ){
+@media screen and (min-width: 772px) and (max-width: 1024px ){
 
     .img1, .img2, .img3 {
         height: 14rem ;
@@ -144,7 +144,7 @@
 }
 
 /* tablet */
-@media screen and (max-width: 768rem){
+@media screen and (min-width: 642px) and (max-width: 769px){
     .antichita{
         width: 30rem;
         display: flex;
@@ -160,11 +160,16 @@
 
     .img1, .img2, .img3{
         display: none;
-        
     }
 }
 
+@media screen and (min-width: 432px) and (max-width: 641px) {
+    .img1, .img2, .img3{
+        display: none;
+    }
 
+    
+}
 
 @media screen and (min-width:377px) and (max-width: 431px){
     .antichita, .main3 , .medioevo, .main5, .oggi{
@@ -178,6 +183,10 @@
     .main1 p,.antichita p, .main3 p, .medioevo p, .main5 p, .oggi p{
         width: 23rem;
         font-size: 1rem;
+    }
+
+    .img1, .img2, .img3{
+        display: none;
     }
 }
 
@@ -195,6 +204,10 @@
     .main1 p,.antichita p, .main3 p, .medioevo p, .main5 p, .oggi p{
         width: 19rem;
         font-size: 1rem;
+    }
+
+    .img1, .img2, .img3{
+        display: none;
     }
     
 }
