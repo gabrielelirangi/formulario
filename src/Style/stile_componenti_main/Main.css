@@ -10,7 +10,7 @@
 
 /*tablet*/
 
-@media  screen and (max-width:48rem) {
+@media  screen and (max-width:768px) {
 
     .divCard{
         display: grid;
@@ -22,8 +22,11 @@
 }
 
 
+
+
+
 /* mobile*/
-@media screen and (max-width: 24rem) {
+@media screen and (max-width: 431px) {
     
     .divCard{
         display: grid;

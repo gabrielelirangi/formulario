@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem 10rem;
+    padding: 0rem 5rem;
     color: white;
     position: fixed;
     z-index: 100; /* Assicura che NavMenu sia sopra tutti gli altri contenuti */
@@ -42,10 +42,19 @@
     display: none;
 }
 
-/* Tablet */
-@media screen and (max-width: 48rem) {
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .NavMenu {
-        padding: 0 6rem;
+        padding: 0 3rem;
+    }
+    
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .NavMenu {
+        padding: 0 4rem;
+        height: 4.5rem;
     }
 
     .logo {
@@ -53,7 +62,7 @@
     }
 
     .logo2 {
-        margin-left: 5rem;
+        margin-left: 5.5rem;
     }
 
     .collegamenti {
@@ -67,18 +76,45 @@
 
 
 /*mobile*/
-@media screen and (max-width: 24rem) {
+@media screen and (max-width: 384px) {
     .NavMenu{
         height: 4rem;
         padding: 0 1rem;
+        
 
     }
 
     .logo{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .logo2{
         margin-left: 3rem;
     }
     
 }
+
+
+@media screen and (min-width: 385px) and (max-width: 431px) {
+
+    .NavMenu {
+        height: 4rem;
+        padding: 0 1.5rem ;
+
+    }
+    
+}
+
+@media screen and (min-width: 432px) and (max-width: 641px) {
+
+    .NavMenu {
+        height: 5rem;
+        padding: 0 2rem ;
+    }
+
+}
+
+
+
+
+
+

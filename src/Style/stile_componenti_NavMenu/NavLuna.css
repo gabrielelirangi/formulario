@@ -7,7 +7,7 @@
     overflow: hidden; 
 }
 
-.boxSemiLuna::before {
+.boxSemiLuna::before { 
     content: ""; /* regola obbligatoria dato che uso before */
     position: absolute; 
     top: 0;

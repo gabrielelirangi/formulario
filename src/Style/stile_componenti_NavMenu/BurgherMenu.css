@@ -65,15 +65,52 @@
     width: 28rem;
 }
 
+@media screen and (min-width:432px) and (max-width: 640px) {
+    .menuBurgher{
+        width: 23rem;
+        top: 8rem;
+        right: 8rem;
+    }
 
-/*mobile*/
-@media screen and (max-width:24rem){
+    .linea2{
+        width: 21rem;
+    }
+    
+}
+
+
+@media screen and (min-width: 377px) and (max-width: 431px) {
+
+    .menuBurgher{
+
+        width: 17rem;
+
+        right: 4.5rem;
+        top: 7rem;
+
+    }
+
+    .linea2{
+        width: 15rem;
+    }
+    
+}
+
+
+@media screen and (max-width:376px){
 
     .menuBurgher{
         width: 15rem;
 
         right: 4rem;
-        top: 8rem;
+        top: 7rem;
+    }
+
+    .linea2{
+        width: 13rem;
     }
     
 }
+
+
+
