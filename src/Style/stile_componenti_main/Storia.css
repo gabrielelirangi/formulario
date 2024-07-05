@@ -168,6 +168,29 @@
         display: none;
     }
 
+    .antichita, .main3 , .medioevo, .main5, .oggi{
+        width: 24.4rem;
+    }
+
+    .antichita, .medioevo, .oggi{
+        width: 35rem;
+    }
+
+    .main1 p{
+        font-size: 1rem;
+    }
+
+    .main3 p,  .main5 p{
+        width: 22rem;
+        font-size: 1rem;
+        ;
+    }
+
+    .antichita p, .medioevo p, .oggi p{
+        width: 32rem;
+        font-size: 1rem;
+    }
+
     
 }
 

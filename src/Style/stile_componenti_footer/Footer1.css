@@ -1,0 +1,230 @@
+
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 1rem 5rem; /* modifica tutto il padding di footer1*/
+
+
+}
+
+
+.testoFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.testoFooter h2{
+    color: #00bfff;
+    font-size: 2.5rem;
+}
+
+.testoFooter p{
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+.boxEmailLink{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+    
+    background-color: whitesmoke;
+    height: 3rem;
+    width: 30rem;
+
+    padding: 1.2rem;
+    border-radius: 1rem;
+
+
+}
+
+.inputEmailFooter{
+    width: 20rem;
+    height: 2rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0.05rem 0.05rem 0.05rem 0.05rem black;
+}
+
+.inputEmailFooter:hover{
+    border: 0.01rem solid #ff00ff;
+    box-shadow: none;
+}
+
+.linkFooter{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.btnFooterEmail{
+    background-color: #6495ed;
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0.05rem 0.05rem 0.05rem 0.05rem black;
+}
+
+.btnFooterEmail:hover{
+    background-color: #4682b4;
+    box-shadow: none ;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+   .footer1{
+    padding: 1rem 3rem;
+   }
+
+   .testoFooter h2{
+        font-size: 2.2rem;
+    }
+
+    .testoFooter p{
+        font-size: 1.1rem;
+    }
+
+    .boxEmailLink{
+        width: 25rem;
+        height: 2.5rem;
+    }
+
+    .inputEmailFooter{
+        width: 15rem;
+        
+    }
+
+
+    
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+   .footer1{
+    padding: 1rem 2rem;
+   }
+
+   .testoFooter h2{
+        font-size: 2rem;
+    }
+
+    .testoFooter p{
+        font-size: 1rem;
+    }
+
+    .boxEmailLink{
+        width: 20rem;
+        height: 2rem;
+    }
+
+    .inputEmailFooter{
+        width: 10rem;
+
+    }
+
+
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+   .footer1{
+    padding: 1rem 2rem;
+   }
+
+   .testoFooter h2{
+     font-size: 1.8rem;
+   }
+
+   .testoFooter p{
+    font-size: 1rem;
+   }
+
+   .boxEmailLink{
+    width: max-content;
+    height: max-content;
+    padding: 0;
+   }
+
+   .inputEmailFooter{
+    display: none;
+   }
+
+}
+
+
+
+
+@media screen and (min-width: 432px) and (max-width: 640px ) {
+
+    .footer1{
+        padding: 1rem 1.5rem;
+    }
+
+    .testoFooter h2{
+        font-size: 1.6rem;
+    }
+
+    .testoFooter p{
+        font-size: 0.9rem;
+    }
+
+    .boxEmailLink{
+        width: max-content;
+        height: max-content;
+        padding: 0;
+    }
+
+    .inputEmailFooter{
+        display: none;
+    }
+    
+}
+
+
+
+@media screen  and (max-width: 431px ) {
+
+    .footer1{
+        padding: 1rem 1.5rem;
+        flex-direction: column;
+        align-items: start;
+        gap: 2rem;
+    }
+
+    .testoFooter h2{
+        font-size: 1.4rem;
+    }
+
+    .testoFooter p{
+        font-size: 0.8rem;
+    }
+
+    .boxEmailLink{
+        width: max-content;
+        height: max-content;
+        padding: 0;
+    }
+
+    .inputEmailFooter{
+        display: none;
+    }
+
+
+    .btnFooterEmail{
+        font-size: 0.8rem;
+    }
+
+
+    
+    
+}
+
+
+
+
