@@ -10,3 +10,39 @@
     border-bottom: 0.01rem solid #b0c4de;
     margin-top: 4rem;
 }
+
+
+.colonneFooter{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+
+    padding: 4rem 5rem;
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .colonneFooter{
+        gap: 6rem;
+        padding: 4rem 2rem;
+    }
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+
+    .colonneFooter{
+        gap: 3.5rem;
+        padding: 4rem 2rem;
+    }
+    
+}
+
+
+@media screen and (min-width: 432px) and (max-width: 640px) {
+
+    .colonneFooter{
+        gap: 2rem;
+        padding: 4rem 2rem;
+    }
+}
