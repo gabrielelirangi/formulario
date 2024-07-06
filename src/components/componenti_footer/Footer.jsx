@@ -1,7 +1,11 @@
 /*contenitore di tutti i componenti che formano il footer */
 import "../../Style/stile_componenti_footer/Footer.css";
+import AboutFooter from "./AboutFooter";
+import Contatti from "./Contatti";
+import Copyright from "./Copyright";
 import Footer1 from "./Footer1";
 import Footer2 from "./Footer2";
+import IconeFooter from "./IconeFooter";
 
 
 function Footer(){
@@ -43,8 +47,17 @@ function Footer(){
 
 
                     {/* altre due colonne del footer da inserire */}
-
+                    <Contatti></Contatti>
+                    <div className="colonnaAbout">
+                        <AboutFooter></AboutFooter>
+                        <IconeFooter></IconeFooter>
+                    </div>
                 </div>
+
+
+                {/* ultima parte del footer va inserita qui */}
+
+                <Copyright></Copyright>
             </div>
         </>
     )

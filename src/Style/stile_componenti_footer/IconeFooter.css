@@ -1,0 +1,67 @@
+
+.iconeFooterContenitore{
+    display: flex;
+    gap: 1rem;
+    justify-content: start;
+    
+}
+
+.iconaFooter{
+    background-color: #1e4356;
+    padding: 0.5rem;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.social{
+    color: white;
+    
+}
+
+.iconaFooter:hover{
+    background-color: #4fa6d5;
+
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .iconaFooter{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .iconaFooter{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .iconaFooter{
+        height: 2.3rem;
+        width: 2.3rem;
+    }
+}
+
+@media screen and (min-width: 432px) and (max-width: 640px) {
+    .iconaFooter{
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .iconaFooter{
+        height: 2rem;
+        width: 2rem;
+    }
+}

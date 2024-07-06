@@ -1,0 +1,87 @@
+.aboutTitolo{
+    color: #00bfff;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.aboutTesto{
+    color: white;
+    width: 17rem;
+    font-size: 1.2rem;
+    
+
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    .aboutTitolo{
+        font-size: 1.3rem;
+    }
+    
+    .aboutTesto{
+        
+        width: 17rem;
+        font-size: 1rem;
+        
+    
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .aboutTitolo{
+        font-size: 1.3rem;
+    }
+    
+    .aboutTesto{
+        
+        width: 17rem;
+        font-size: 1rem;
+        
+    
+    }
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .aboutTitolo{
+        font-size: 1.3rem;
+    }
+    
+    .aboutTesto{
+        
+        width: 17rem;
+        font-size: 1rem;
+        
+    
+    }
+}
+
+@media screen and (min-width: 432px) and (max-width: 640px) {
+    .aboutTitolo{
+        font-size: 1rem;
+    }
+    
+    .aboutTesto{
+        
+        width: 17rem;
+        font-size: 0.8rem;
+        
+    
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .aboutTitolo{
+        font-size: 1.4rem;
+    }
+    
+    .aboutTesto{
+        
+        width: 17rem;
+        font-size: 1rem;
+        
+    
+    }
+}
