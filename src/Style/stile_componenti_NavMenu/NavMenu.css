@@ -1,5 +1,5 @@
 .NavMenu {
-    background-color: #1e4356cc;
+    background-color: transparent;
     height: 4rem;
     width: 100%;
     display: flex;
@@ -10,7 +10,9 @@
     position: fixed;
     z-index: 100; /* Assicura che NavMenu sia sopra tutti gli altri contenuti */
 }
-
+.scrollaPagina{
+    background-color: #1e4356cc ;
+}
 .logo {
     font-size: 1.1rem;
     display: flex;
@@ -35,7 +37,7 @@
 }
 
 .NavMenu-bottone:hover {
-    color: #00bfff;
+    color: #000080;
 }
 
 .burgherMenu {

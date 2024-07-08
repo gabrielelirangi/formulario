@@ -20,10 +20,10 @@ function BurgherMenu(){ // passo la prop onclick cosi da far visualizzare al cli
       };
 
 
-      //funzioni per il cambio colore
+      //funzioni per il cambio colore dell'icona
 
       const cambiaColore = () => {
-        setCambiaColoreBurgher("#00bfff");
+        setCambiaColoreBurgher("#000080");
       };
 
       const ripristinaColore = () => {
