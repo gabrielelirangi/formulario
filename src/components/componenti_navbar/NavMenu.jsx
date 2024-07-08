@@ -40,8 +40,8 @@ function NavMenu() {
       <div className="NavMenu">
         {/* inserimento logo e collegamenti alle pagine */}
         <div className="logo" >
-          <h2 className="logo1">Einstain</h2>
-          <h2 className="logo2">Formulary</h2>
+          <h2 className="logo1">EINSTAIN</h2>
+          <h2 className="logo2">FORMULARY</h2>
         </div>
         <div className="collegamenti">
           <Link to="/" className="NavMenu-bottone">
@@ -57,13 +57,13 @@ function NavMenu() {
             Blog
           </Link>
 
-          <User size={30} onMouseEnter={cambiaColoreUser} onMouseLeave={ripristinaColoreUser} color={bottoneUser}
+          <User size={28} onMouseEnter={cambiaColoreUser} onMouseLeave={ripristinaColoreUser} color={bottoneUser}
           onClick={mostraMenuUser} />
         </div>
 
 
         <div className="burgherMenu">
-          <BurgherMenu></BurgherMenu>
+          <BurgherMenu className="burgher"></BurgherMenu>
         </div>
       </div>
       

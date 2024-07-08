@@ -41,7 +41,7 @@ function BurgherMenu(){ // passo la prop onclick cosi da far visualizzare al cli
     
       return (
         <>
-          <Menu size={45}  onClick={visualizzaMenu} 
+          <Menu size={40}  onClick={visualizzaMenu} 
           onMouseEnter={cambiaColore} onMouseLeave={ripristinaColore} color={cambiaColoreBurgher} />
           {mostraMenu && (
             <div className="menuBurgher">
