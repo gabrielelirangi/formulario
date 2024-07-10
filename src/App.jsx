@@ -13,6 +13,9 @@ import './App.css'
 import Home from './pages/Home';
 import ScuolaElementare from './pages/ScuolaElementare';
 import Materiale from './pages/Materiale';
+import ScuolaMedia from './pages/ScuolaMedia';
+import ScuolaSuperiore from './pages/ScuolaSuperiore';
+import Universita from './pages/Universita';
 
 function App() {
   
@@ -21,6 +24,9 @@ function App() {
     { path: "/Home", element: <Home/>},
     { path: "/materiale", element: <Materiale/>},
     { path: "/scuolaelementare", element: <ScuolaElementare/>},
+    { path: "/scuoladiprimogrado", element: <ScuolaMedia/>},
+    { path: "/scuoladisecondogrado", element: <ScuolaSuperiore/>},
+    { path: "/universita'", element: <Universita/>},
 
 
 
