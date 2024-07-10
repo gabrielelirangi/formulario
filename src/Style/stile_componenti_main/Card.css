@@ -1,82 +1,105 @@
+.carta {
+  background-color: #f8f8ff;
+  height: 23.4rem;
+  width: 17rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
 
-
-.carta{
-    background-color: #f8f8ff;
-    height: 23.4rem;
-    width: 17rem;
-    box-shadow:  0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
-    border-radius: 1rem;
-
-    margin: 0 auto;
-    margin-top: 8rem;
-    
-
+  margin: 0 auto;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
 }
 
-.linkCard{
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
+.linkCard {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
 
-    padding: 1rem 2rem ;
-    text-align: center;
-    
+  padding: 1rem 2rem;
+  text-align: center;
+}aa
+
+.carta:hover {
+  border: 0.05rem solid #ff00ff;
 }
 
-.carta:hover{
-    border: 0.05rem solid #ff00ff ;
+.imgCarta {
+  height: 7rem;
+  width: 9rem;
+  border-radius: 50%;
+}
+
+.titoloCarta {
+  font-size: 2rem;
+  color: black;
+}
+
+.descrizioneCarta {
+  font-size: 1.2rem;
+  color: #a9a9a9;
+
+  height: 7rem;
+}
+
+.scrollbar {
+  height: 9.5rem;
+  overflow-y: scroll;
+ 
+  
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #d3d3d3;
+  border-radius: 0.5rem;
 }
 
 
-.imgCarta{
+.scrollbar::-webkit-scrollbar-thumb { 
+
+  background-color: #a9a9a9;
+  border-radius: 0.5rem;
+}
+
+
+.altezza{
     height: 7rem;
-    width: 9rem;
-    border-radius: 50%;
-
 }
 
-.titoloCarta{
-    font-size: 2rem;
-    color: black;
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .carta {
+      margin-top: 10rem;
+      margin-bottom: 3rem;
+    }
+
+    .scrollbar{
+        height: 9.5rem;
+        
+        overflow-y: scroll;
+    }
+    .scrollbar::-webkit-scrollbar {
+        width: 0.5rem;
+        background-color: #d3d3d3;
+        border-radius: 0.5rem;
+      }
+      
+      
+      .scrollbar::-webkit-scrollbar-thumb { 
+      
+        background-color: #a9a9a9;
+        border-radius: 0.5rem;
+      }
 }
 
-.descrizioneCarta{
-    font-size: 1.2rem;
-    color:#A9A9A9;
-}
-
-/* tablet */
-@media  screen and (min-width: 385px) and (max-width: 768px) {
-    
-   .carta{
-        margin-bottom: 0.01rem;
-   }
-
-}
-
-/*mobile*/
-
-@media  screen and (max-width: 384px) {
-    .carta{
-        height: max-content;
-        margin-bottom: 0.01rem;
-   }
-
-   .imgCarta{
-    height: 5rem;
-    width: 7rem;
-   }
-
-   .titoloCarta{
-    font-size: 1.6rem;
-   }
-
-   .descrizioneCarta{
-    font-size: 1.1rem;
-   }
 
 
-}
+
+
+
+

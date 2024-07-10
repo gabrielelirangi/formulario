@@ -54,9 +54,9 @@ function NavMenu() {
            
             Home
           </Link>
-          <Link to="/servizi" className="NavMenu-bottone">
+          <Link to="/materiale" className="NavMenu-bottone">
            
-            Servizi
+            Materiale
           </Link>
           <Link to="/blog" className="NavMenu-bottone">
             
@@ -75,7 +75,7 @@ function NavMenu() {
       
       {menuUser && (
         <div className="userMenu">
-          <UserMenu />
+          <UserMenu/>
         </div>
       )}
 

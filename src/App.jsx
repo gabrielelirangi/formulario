@@ -11,15 +11,15 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import './App.css'
 import Home from './pages/Home';
-import Servizi from './pages/Servizi';
 import ScuolaElementare from './pages/ScuolaElementare';
+import Materiale from './pages/Materiale';
 
 function App() {
   
   const router = createBrowserRouter([
     { path: "/", element: <Home/>},
     { path: "/Home", element: <Home/>},
-    { path: "/servizi", element: <Servizi/>},
+    { path: "/materiale", element: <Materiale/>},
     { path: "/scuolaelementare", element: <ScuolaElementare/>},
 
 

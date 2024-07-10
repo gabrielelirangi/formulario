@@ -51,7 +51,7 @@ function BurgherMenu(){ // passo la prop onclick cosi da far visualizzare al cli
               </div>
               <div className="menuBurgherlink">
                 <Link to="/" className="bottoniBurgher">Home</Link>
-                <Link to="/servizi" className="bottoniBurgher">Servizi</Link>
+                <Link to="/materiale" className="bottoniBurgher">Materiale</Link>
                 <Link to="/blog" className="bottoniBurgher">Blog</Link>
                 <div className="linea2"></div>
                 <Link to="/registrati" className="bottoniBurgher " >Registrati</Link>

@@ -5,7 +5,7 @@ import "../../Style/stile_componenti_main/Card.css";
 
 
 
-function Card({ img, alt, titolo, descrizione, collegamento }){
+function Card({ img, alt, titolo, descrizione, collegamento, className }){
 
     return(
         <>
@@ -17,7 +17,7 @@ function Card({ img, alt, titolo, descrizione, collegamento }){
                     {/* titolo della carta */}
                     <h2 className="titoloCarta">{titolo}</h2>
                     {/* descrizione carta */}
-                    <p className="descrizioneCarta">{descrizione}</p>
+                    <p className= {`descrizioneCarta ${className}`}>{descrizione}</p>
                 </Link>
             </div>
         </>

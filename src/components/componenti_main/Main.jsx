@@ -1,6 +1,6 @@
 import Card from "./Card";
 import "../../Style/stile_componenti_main/Main.css";
-import Storia from "./Storia";
+// import Storia from "./Storia";
 
 function Main() {
   return (
@@ -45,7 +45,7 @@ function Main() {
           {/* aggiunta storia sulla matematica */}
         </div>
 
-        <Storia></Storia>
+        {/* <Storia></Storia> */}
       </div>
 
     </>

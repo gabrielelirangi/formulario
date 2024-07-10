@@ -1,13 +1,15 @@
 import Footer from "../components/componenti_footer/Footer";
+import Main from "../components/componenti_main/Main";
 
 import NavMenu from "../components/componenti_navbar/NavMenu";
-import MainServizi from "../components/componenti_servizi/MainServizi";
 
-function Servizi(){
+
+function Materiale(){
     return(
         <>
             <NavMenu/>
-            <MainServizi></MainServizi>
+
+            <Main></Main>
             <Footer></Footer>
             
         </>
@@ -15,4 +17,4 @@ function Servizi(){
 }
 
 
-export default Servizi;
+export default Materiale;
