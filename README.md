@@ -54,7 +54,7 @@ I componenti e le pagine responsive sono stati costruiti utilizzando React, ment
 - [Gabriele Lirangi](https://github.com/gabrielelirangi)
 
 ## Contatti
-Se hai qualche domanda o vuoi contattarmi, puoi farlo mandandomi una email all'indirizzo: [gabrieleelirangi@gmail.com] oppure contattandomi su linkedin: [linkedin](https://www.linkedin.com/in/gabriele-lirangi-500a542a5/)
+Se hai qualche domanda o vuoi contattarmi, puoi farlo mandandomi una email all'indirizzo [email][gabrieleelirangi@gmail.com] oppure contattandomi su  [linkedin](https://www.linkedin.com/in/gabriele-lirangi-500a542a5/)
 
 Ovviamente sono aperto a qualunque suggerimento da apportare.
 
