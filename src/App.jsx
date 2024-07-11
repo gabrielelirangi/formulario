@@ -17,6 +17,9 @@ import ScuolaSuperiore from './pages/ScuolaSuperiore';
 import Universita from './pages/Universita';
 import ScrollToTop from './components/componenti_logica/ScrollToTop';
 import Error from './pages/Error';
+import Registrati from './pages/Registrati';
+import Accedi from './pages/Accedi';
+
 
 function App() {
   return (
@@ -30,6 +33,8 @@ function App() {
         <Route path="/scuoladisecondogrado" element={<ScuolaSuperiore />} />
         <Route path="/universita'" element={<Universita />} />
         <Route path="*" element={<Error/>}/>
+        <Route path="/registrati" element={<Registrati/>}/>
+        <Route path="/accedi" element={<Accedi/>}/>
       </Routes>
     </Router>
   );

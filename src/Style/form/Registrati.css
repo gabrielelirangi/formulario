@@ -1,0 +1,233 @@
+
+.registrati{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("../../assets/immagini_Navbar/sfondo.jpg");
+    background-size: cover ;
+}
+
+.form{
+    background-color: azure;
+    border: 0.01rem solid #000;
+    
+    border-radius: 2rem;
+    height: 30rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.lineaForm{
+    border-bottom: 0.01rem solid #000;
+    width: 35rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.titoloForm{
+    margin-top: 1.5rem;
+    color: #000080;
+    font-size: 2.5rem;
+    
+}
+
+.benvenutoForm{
+    font-size: 1.5rem;
+}
+
+.input{
+    padding: 0.5rem;
+    border-radius: 1rem ;
+    border: none;
+    box-shadow: 0  0.1rem 0.5rem black;
+    width: 20rem;
+    text-align: center;
+}
+
+.campiForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; 
+      
+}
+
+
+.bottoneForm{
+    background-color: #00dfff;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0.1rem 0.01rem 0.5rem black;
+
+}
+
+.linkForm{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.link_form{
+    text-decoration: none;
+    color: grey;
+    font-size: 1rem;
+}
+
+.link_form:hover{
+    color: black;
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .form{
+        height: 30rem;
+        width: 35rem;
+    }
+
+
+    .lineaForm{
+        width: 30rem;
+    }
+
+
+    .input{
+        width: 17rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .form{
+        height: 30rem;
+        width: 30rem;
+    }
+
+    .titoloForm{
+        font-size: 2.3rem;
+    }
+
+    .benvenutoForm{
+        font-size: 1.3rem;
+    }
+
+
+    .lineaForm{
+        width: 25rem;
+    }
+
+    .bottoneForm{
+        font-size: 1rem;
+    }
+
+    .input{
+        width: 16rem;
+    }
+
+    .link_form{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .form{
+        height: 30rem;
+        width: 25rem;
+    }
+
+    .titoloForm{
+        font-size: 2.2rem;
+
+    }
+
+    .benvenutoForm{
+        font-size: 1.2rem;
+    }
+
+    .lineaForm{
+        width: 20rem;
+    }
+
+    .bottoneForm{
+        font-size: 0.9rem;
+    }
+
+    .input{
+        width: 15rem;
+    }
+
+    .link_form{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 432px) and (max-width: 640px) {
+    .form{
+        height: 30rem;
+        width: 25rem;
+    }
+
+    .titoloForm{
+        font-size: 2.2rem;
+
+    }
+
+    .benvenutoForm{
+        font-size: 1.2rem;
+    }
+
+    .lineaForm{
+        width: 20rem;
+    }
+
+    .bottoneForm{
+        font-size: 0.9rem;
+    }
+
+    .input{
+        width: 15rem;
+    }
+
+    .link_form{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 431px) {
+   .form{
+        height: 30rem;
+        width: 18rem;
+    }
+
+    .titoloForm{
+        font-size: 1.7rem;
+    }
+
+    .benvenutoForm{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .lineaForm{
+        width: 15rem;
+    }
+
+    .bottoneForm{
+        font-size: 0.8rem;
+    }
+
+    .input{
+        width: 10rem;
+    }
+
+    .link_form{
+        font-size: 0.8rem;
+    }
+}
