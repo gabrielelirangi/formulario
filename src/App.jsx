@@ -16,6 +16,7 @@ import ScuolaMedia from './pages/ScuolaMedia';
 import ScuolaSuperiore from './pages/ScuolaSuperiore';
 import Universita from './pages/Universita';
 import ScrollToTop from './components/componenti_logica/ScrollToTop';
+import Error from './pages/Error';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/scuoladiprimogrado" element={<ScuolaMedia />} />
         <Route path="/scuoladisecondogrado" element={<ScuolaSuperiore />} />
         <Route path="/universita'" element={<Universita />} />
+        <Route path="*" element={<Error/>}/>
       </Routes>
     </Router>
   );
