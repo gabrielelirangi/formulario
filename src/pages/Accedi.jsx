@@ -10,7 +10,7 @@ function Accedi(){
           bottone: "Accedi",
           home: "/",
           accedi:"/registrati",
-          testo:"Accedi"
+          testo:"Registrati"
         },
       ];
 

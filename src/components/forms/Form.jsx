@@ -5,7 +5,7 @@ import "../../Style/form/Registrati.css";
 function Form({ titolo, testoBenvenuto, testo, placeholder, bottone, home, accedi }) {
   return (
     <>
-      <div className="registrati">
+      <div className="registratiForm">
         <form action="" className="form">
           {/* il form deve essere formato da un titolo che sara' tipo registrati o accedi e una frase di benvenuto.
             poi inserire un input per il nome e uno per la password, un bottone per inviare il form e un link per tornare alla home */}

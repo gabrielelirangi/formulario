@@ -13,7 +13,7 @@ function Registrati() {
       bottone: "Registrati",
       home: "/",
       accedi:"/accedi",
-      testo:"Registrati"
+      testo:"Accedi"
     },
   ];
   return (
