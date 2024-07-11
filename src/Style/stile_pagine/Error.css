@@ -40,7 +40,7 @@
 
   .collegamentoError {
     font-size: 2rem;
-    top: 55rem;
+    top: 50rem;
     left: 15rem;
   }
 }
@@ -52,8 +52,8 @@
 
   .collegamentoError {
     font-size: 1.5rem;
-    top: 39rem;
-    left: 15rem;
+    top: 5rem;
+    left: 4rem;
   }
 }
 
@@ -64,8 +64,8 @@
 
   .collegamentoError {
     font-size: 1.5rem;
-    top: 38rem;
-    left: 13rem;
+    top: 6rem;
+    left: 4rem;
   }
 }
 
@@ -77,8 +77,8 @@
 
   .collegamentoError {
     font-size: 1.6rem;
-    top: 10rem;
-    left: 6rem;
+    top: 8rem;
+    left: 4.5rem;
   }
 
 }

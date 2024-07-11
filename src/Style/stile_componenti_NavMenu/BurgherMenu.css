@@ -14,8 +14,8 @@
     gap: 2rem;
 
     position: absolute;
-    top: 9rem;
-    right: 9rem;
+    top: 10rem;
+    right: 3rem;
 
 
 
@@ -65,52 +65,56 @@
     width: 28rem;
 }
 
-@media screen and (min-width:432px) and (max-width: 640px) {
+@media screen and (min-width:749px) and (max-width: 750px) {
     .menuBurgher{
-        width: 23rem;
+        width: 28rem;
         top: 8rem;
-        right: 8rem;
+        right: 10rem;
     }
-
+    .bottoniBurgher{
+        font-size: 1.2rem;
+    }
     .linea2{
-        width: 21rem;
+        width: 25rem;
     }
     
 }
 
-
-@media screen and (min-width: 377px) and (max-width: 431px) {
-
+@media screen and (min-width:650px) and (max-width: 748px) {
     .menuBurgher{
-
-        width: 17rem;
-
-        right: 4.5rem;
-        top: 7rem;
-
+        width: 28rem;
+        top: 8rem;
+        right: 3rem;
     }
-
-    .linea2{
-        width: 15rem;
-    }
-    
 }
 
-
-@media screen and (max-width:376px){
-
+@media screen and (min-width: 432px) and (max-width: 649px) {
     .menuBurgher{
-        width: 15rem;
-
-        right: 4rem;
-        top: 7rem;
+        width: 25rem;
+        top: 8rem;
+        right: 1rem;
     }
-
+    .bottoniBurgher{
+        font-size: 1.2rem;
+    }
     .linea2{
-        width: 13rem;
+        width: 23rem;
     }
-    
+
 }
 
+@media screen and  (max-width: 431px) {
+    .menuBurgher{
+        width: 20rem;
+        top: 8rem;
+        right: 1rem;
+    }
+    .bottoniBurgher{
+        font-size: 1.1rem;
+    }
+    .linea2{
+        width: 18rem;
+    }
+}
 
 

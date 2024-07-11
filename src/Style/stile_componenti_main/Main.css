@@ -10,7 +10,7 @@
 
 /*tablet*/
 
-@media  screen and (max-width:768px) {
+@media  screen and (max-width:1024px) {
 
     .divCard{
         display: grid;
@@ -23,7 +23,14 @@
 }
 
 
-
+@media screen and (min-width: 432px) and (max-width:748px) {
+    .divCard{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    
+}
 
 
 /* mobile*/

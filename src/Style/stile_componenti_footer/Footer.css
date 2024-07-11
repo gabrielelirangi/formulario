@@ -34,8 +34,10 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .colonneFooter{
-        gap: 6rem;
-        padding: 4rem 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 4rem 3rem;
+        
     }
 }
 
@@ -50,14 +52,24 @@
     
 }
 
-
-@media screen and (min-width: 432px) and (max-width: 640px) {
-
+@media screen and (min-width:595px) and (max-width: 640px) {
     .colonneFooter{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 4rem 2rem;
     }
+}
+
+
+@media screen and (min-width: 432px) and (max-width: 594px) {
+
+    .colonneFooter{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 4rem 2rem;
+    }
+
+    
 }
 
 @media screen and (max-width: 431px) {

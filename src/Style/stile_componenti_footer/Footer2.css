@@ -43,6 +43,7 @@
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .footer2 h3{
         font-size: 1.3rem;
+        
     }
 
     .linkFooter2{
@@ -93,15 +94,16 @@
 @media screen and (min-width: 432px) and (max-width: 640px) {
 
     .footer2 h3{
-        font-size: 1rem;
+        font-size: 1.4rem;
+        
     }
 
     .linkFooter2{
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
 
     .iconaFooter2{
-        height: 1rem;
+        height: 1.1rem;
     }
 
 }

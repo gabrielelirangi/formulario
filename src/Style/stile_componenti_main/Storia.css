@@ -123,8 +123,14 @@
     margin: 0 auto;
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .antichita p, .medioevo p,  .oggi p{
+        width: 30rem;
+        
+    }
+}
 
-@media screen and (min-width: 772px) and (max-width: 1024px ){
+@media screen and (min-width: 769px) and (max-width: 1024px ){
 
     .img1, .img2, .img3 {
         height: 14rem ;
@@ -132,19 +138,19 @@
     }
 
     .antichita , .medioevo{
-        width: 42rem;
+        width: 30rem;
         height: max-content;
     }
 
     .antichita p, .medioevo p,  .oggi p{
-        width: 40rem;
+        width: 28rem;
         
     }
 
 }
 
 /* tablet */
-@media screen and (min-width: 642px) and (max-width: 769px){
+@media screen and (min-width: 642px) and (max-width: 768px){
     .antichita{
         width: 30rem;
         display: flex;
@@ -173,7 +179,7 @@
     }
 
     .antichita, .medioevo, .oggi{
-        width: 35rem;
+        width: 24rem;
     }
 
     .main1 p{
@@ -187,7 +193,7 @@
     }
 
     .antichita p, .medioevo p, .oggi p{
-        width: 32rem;
+        width: 22rem;
         font-size: 1rem;
     }
 
