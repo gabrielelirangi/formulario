@@ -10,6 +10,10 @@ function Error() {
 
 
             <Link to="/" className="collegamentoError">Torna alla home</Link>
+
+
+
+            
         </div>
       </div>
     </>
